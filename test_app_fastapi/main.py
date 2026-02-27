@@ -30,7 +30,7 @@ _load_defaults()
 
 @app.get("/")
 def root():
-    return {"message": "Welcome Change 3"}
+    return {"message": "Welcome Change 4.5"}
 
 @app.get("/health")
 def health():
