@@ -30,7 +30,7 @@ _load_defaults()
 
 @app.get("/")
 def root():
-    return {"message": "Welcome to the Test App FastAPI!"}
+    return {"message": "Welcome Saalieri!"}
 
 @app.get("/health")
 def health():
